@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/bottom_sheet.xml">
+        <config>
+          <theme>@style/Theme.mazaadyTask</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27e0b3b7-74df-4d2f-8447-794c6c821497" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mazaadyTask/dI/NetworkModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mazaadyTask/dataPreviewScreen/adapter/DataAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mazaadyTask/dataPreviewScreen/fragments/DataPreviewScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mazaadyTask/mainScreen/adapters/options/OptionsAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mazaadyTask/mainScreen/adapters/properties/PropertiesAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mazaadyTask/mainScreen/fragments/MainScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baseline_search_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/divider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/data_preview_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/hash_map_table.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/main_screen_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/example/mazaadyTask/utils/getOrAwaitValue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/example/mazaadyTask/viewModelTest/MainModelTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/src/main/java/com/example/data/utils/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/src/main/java/com/example/data/utils/Constants.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/androidTest/java/com/example/domain/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/androidTest/java/com/example/domain/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/apiStates/CategoriesApiStates.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/apiStates/CategoriesApiStates.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/apiStates/OptionsApiStates.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/apiStates/OptionsApiStates.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/apiStates/PropertiesApiStates.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/apiStates/PropertiesApiStates.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/categories/AdsBanner.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/categories/AdsBanner.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/categories/Category.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/categories/Category.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/categories/Children.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/categories/Children.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/categories/Data.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/categories/Data.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/categories/Statistics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/categories/Statistics.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/categories/categories.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/categories/categories.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/options/Data.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/options/Data.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/options/Option.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/options/Option.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/options/options.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/options/options.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/properties/Data.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/properties/Data.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/properties/Option.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/properties/Option.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/properties/properties.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/properties/properties.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/reposoitories/ICategoriesRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/reposoitories/ICategoriesRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/reposoitories/IOptionsRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/reposoitories/IOptionsRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/reposoitories/IPropertiesRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/reposoitories/IPropertiesRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/useCases/Categories/CategoriesUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/useCases/Categories/CategoriesUseCase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/useCases/Categories/ICategoriesUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/useCases/Categories/ICategoriesUseCase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/useCases/options/IOptionsUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/useCases/options/IOptionsUseCase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/useCases/options/OptionsUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/useCases/options/OptionsUseCase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/useCases/properties/IPropertiesUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/useCases/properties/IPropertiesUseCase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/useCases/properties/PropertiesUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/useCases/properties/PropertiesUseCase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/src/test/java/com/example/domain/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/test/java/com/example/domain/ExampleUnitTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/softxpert/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/mazaadyTask/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/activities/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mazaadyTask/activities/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/application/Myapp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mazaadyTask/application/Myapp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/bindingImages/bindImagesWithGlide.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/dI/NetworkModule.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/petDetailsScreen/fragments/PetDetails.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/petsHomeScreen/adapters/CategoriesAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/petsHomeScreen/adapters/OnItemClickListener.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/petsHomeScreen/adapters/properties/OnPropertiesClickListener.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/petsHomeScreen/adapters/properties/PropertiesAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/petsHomeScreen/adapters/properties/property/OnPropertyClickListener.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/petsHomeScreen/adapters/properties/property/PropertyAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mazaadyTask/mainScreen/adapters/subCategory/SubCategoriesAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/petsHomeScreen/adapters/subCategory/OnSubCatItemClickListener.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/petsHomeScreen/adapters/subCategory/SubCategoriesAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mazaadyTask/mainScreen/adapters/category/CategoriesAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/petsHomeScreen/fragments/MainScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/petsHomeScreen/viewModels/MainViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mazaadyTask/mainScreen/viewModels/MainViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/sharedViews/SnackBar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mazaadyTask/sharedViews/SnackBar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/list_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/list_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/bottom_sheet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/bottom_sheet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pet_details.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/pets_home_screen_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/properties_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/properties_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/softxpert/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/example/mazaadyTask/ExampleUnitTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2ZbpCTbLknY2epnjSCJGBkcX8BK" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="mazaadyTask.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27e0b3b7-74df-4d2f-8447-794c6c821497" name="Changes" comment="" />
+      <created>1702700508823</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702700508823</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,14 +1,14 @@
 package com.example.domain.apiStates
 
-import com.example.domain.models.categories.categories
+import com.example.domain.models.properties.properties
 
-sealed class CategoriesApiStates {
-    data object Idle : CategoriesApiStates()
+sealed class PropertiesApiStates {
+    data object Idle : PropertiesApiStates()
 
-    data object Loading : CategoriesApiStates()
+    data object Loading : PropertiesApiStates()
 
-    class Success(var data: categories?) : CategoriesApiStates()
-    class Failure(var error: Throwable) : CategoriesApiStates()
+    class Success(var data: properties?) : PropertiesApiStates()
+    class Failure(var error: Throwable) : PropertiesApiStates()
 
 
 }

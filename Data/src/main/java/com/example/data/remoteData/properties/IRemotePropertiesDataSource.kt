@@ -1,13 +1,12 @@
 package com.example.data.remoteData.Categories
 
-import com.example.domain.apiStates.CategoriesApiStates
-import com.example.domain.models.categories.Category
 import com.example.domain.models.categories.categories
+import com.example.domain.models.properties.properties
 import retrofit2.Response
 
-interface IRemoteCategoriesDataSource {
+interface IRemotePropertiesDataSource {
 
 
 
-    suspend fun getCategories(): Response<categories>
+    suspend fun getProperties(id : Int): Response<properties>
 }

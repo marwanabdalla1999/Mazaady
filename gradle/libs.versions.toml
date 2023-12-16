@@ -1,6 +1,7 @@
 [versions]
 #noinspection GradleDependency
 agp = "8.1.2"
+core-testing = "2.2.0"
 kotlin = "1.9.0"
 core-ktx = "1.12.0"
 junit = "4.13.2"
@@ -12,6 +13,7 @@ constraintlayout = "2.1.4"
 hilt = "2.48"
 hilt-compiler = "2.48"
 #noinspection GradleDependency
+mockito-core = "5.3.1"
 navigationfragment = "2.7.4"
 viewmodel= "2.6.2"
 coroutines = "1.7.3"
@@ -27,6 +29,7 @@ room-ktx="2.6.0"
 room-testing="2.6.0"
 
 [libraries]
+androidx-core-testing = { module = "androidx.arch.core:core-testing", version.ref = "core-testing" }
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
@@ -36,6 +39,7 @@ material = { group = "com.google.android.material", name = "material", version.r
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 hilt = {group="com.google.dagger" , name = "hilt-android" , version.ref = "hilt"}
 hiltcompiler = {group="com.google.dagger" , name = "hilt-compiler" , version.ref = "hilt-compiler"}
+mockito-core = { module = "org.mockito:mockito-core", version.ref = "mockito-core" }
 navigationfragment = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationfragment" }
 viewModel = {group="androidx.lifecycle" , name = "lifecycle-viewmodel-ktx" , version.ref = "viewmodel"}
 coroutines = {group="org.jetbrains.kotlinx" , name = "kotlinx-coroutines-android" , version.ref = "coroutines"}

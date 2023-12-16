@@ -1,12 +1,13 @@
-package com.example.data.remoteData.pets
+package com.example.data.remoteData.Categories
 
-import com.example.data.responses.pets.PetsResponse
 import com.example.domain.apiStates.CategoriesApiStates
+import com.example.domain.models.categories.Category
+import com.example.domain.models.categories.categories
 import retrofit2.Response
 
-interface IRemotePetsDataSource {
+interface IRemoteCategoriesDataSource {
 
 
 
-    suspend fun getCategories(): Response<CategoriesApiStates>
+    suspend fun getCategories(): Response<categories>
 }

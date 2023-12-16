@@ -1,4 +1,4 @@
-package com.example.domain.useCases.getPets
+package com.example.domain.useCases.Categories
 
 import com.example.domain.apiStates.CategoriesApiStates
 import com.example.domain.reposoitories.ICategoriesRepository

@@ -1,12 +1,14 @@
 package com.example.domain.apiStates
 
-sealed class PetsApiStates {
-    data object Idle : PetsApiStates()
+import com.example.domain.models.categories.categories
 
-    data object Loading : PetsApiStates()
+sealed class CategoriesApiStates {
+    data object Idle : CategoriesApiStates()
 
-    class Success(var data: PetsModel?) : PetsApiStates()
-    class Failure(var error: Throwable, var offlineData: PetsModel?) : PetsApiStates()
+    data object Loading : CategoriesApiStates()
+
+    class Success(var data: categories?) : CategoriesApiStates()
+    class Failure(var error: Throwable) : CategoriesApiStates()
 
 
 }

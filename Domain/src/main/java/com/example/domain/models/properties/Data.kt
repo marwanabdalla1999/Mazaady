@@ -5,7 +5,7 @@ data class Data(
     val id: Int,
     val list: Boolean,
     val name: String,
-    val options: List<Option>,
+    val options: ArrayList<Option>,
     val other_value: Any,
     val parent: Any,
     val slug: String,

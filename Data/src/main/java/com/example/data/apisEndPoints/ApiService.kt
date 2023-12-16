@@ -1,30 +1,32 @@
 package com.example.data.apisEndPoints
 
-import com.example.data.responses.auth.AuthTokenResponse
-import com.example.data.responses.pets.PetsResponse
+import com.example.domain.models.categories.categories
+import com.example.domain.models.properties.properties
 import retrofit2.Response
-import retrofit2.http.Field
-import retrofit2.http.FormUrlEncoded
 import retrofit2.http.GET
 import retrofit2.http.Header
-import retrofit2.http.POST
+import retrofit2.http.Path
 import retrofit2.http.Query
+
 
 interface ApiService {
 
-    @FormUrlEncoded
-    @POST("/v2/oauth2/token")
-   suspend fun getToken(
-        @Field("grant_type") grantType: String,
-        @Field("client_id") clientId: String,
-        @Field("client_secret") clientSecret: String
-    ):Response<AuthTokenResponse?>
+    @GET("/api/v1/get_all_cats")
+   suspend fun getCategories(
+        @Header("private-key") key: String,
+    ): Response<categories>
+
+    @GET("/api/v1/properties")
+    suspend fun getProperties(
+        @Header("private-key") key: String,
+        @Query("cat") cat:Int
+    ): Response<properties>
 
 
-    @GET("/v2/animals")
-   suspend fun getPets(
-        @Header("Authorization") token: String,
-        @Query("page") page: Int,
-        @Query("type") type: String
-    ): Response<PetsResponse?>
+    @GET("/api/v1/get-options-child/{option_id}")
+    suspend fun getOptions(
+        @Header("private-key") key: String,
+        @Path("option_id") optionId:Int
+    ): Response<properties>
+
 }

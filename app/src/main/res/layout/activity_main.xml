@@ -17,7 +17,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:navGraph="@navigation/nav_graph"
-            tools:layout="@layout/pets_home_screen_fragment" />
+            tools:layout="@layout/main_screen_fragment" />
 
 
 

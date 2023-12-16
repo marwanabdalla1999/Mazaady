@@ -1,10 +1,10 @@
 package com.example.domain.reposoitories
 
-import com.example.domain.apiStates.PetsApiStates
+import com.example.domain.apiStates.CategoriesApiStates
 
-interface IPetsRepository {
+interface ICategoriesRepository {
 
 
 
-    suspend fun getPets(page:Int,type: String, token: String?): PetsApiStates
+    suspend fun getCategories(): CategoriesApiStates
 }

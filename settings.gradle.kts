@@ -19,7 +19,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "softxpert"
+rootProject.name = "mazaadyTask"
 include(":app")
 include(":Domain")
 include(":Data")

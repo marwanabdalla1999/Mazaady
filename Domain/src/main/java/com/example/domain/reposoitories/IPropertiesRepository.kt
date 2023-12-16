@@ -1,10 +1,11 @@
 package com.example.domain.reposoitories
 
 import com.example.domain.apiStates.CategoriesApiStates
+import com.example.domain.apiStates.PropertiesApiStates
 
-interface ICategoriesRepository {
+interface IPropertiesRepository {
 
 
 
-    suspend fun getCategories(): CategoriesApiStates
+    suspend fun getProperties(id : Int ): PropertiesApiStates
 }

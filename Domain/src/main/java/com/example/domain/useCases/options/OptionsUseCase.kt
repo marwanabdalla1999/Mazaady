@@ -1,16 +1,16 @@
-package com.example.domain.useCases.properties
+package com.example.domain.useCases.options
 
-import com.example.domain.apiStates.PropertiesApiStates
-import com.example.domain.reposoitories.IPropertiesRepository
+import com.example.domain.apiStates.OptionsApiStates
+import com.example.domain.reposoitories.IOptionsRepository
 
-class PropertiesUseCase(
-    private val properties: IPropertiesRepository
-) : IPropertiesUseCase {
+class OptionsUseCase(
+    private val options: IOptionsRepository
+) : IOptionsUseCase {
 
-    override suspend fun getProperties(id : Int ): PropertiesApiStates {
+    override suspend fun getOptions(id : Int ): OptionsApiStates {
 
 
-        return properties.getProperties(id)
+        return options.getOptions(id)
 
 
     }

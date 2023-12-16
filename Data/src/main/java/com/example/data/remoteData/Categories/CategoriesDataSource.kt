@@ -6,7 +6,7 @@ import com.example.domain.models.categories.categories
 import retrofit2.Response
 
 
-class CategoriesPetsDataSource (private val apiService: ApiService): IRemoteCategoriesDataSource {
+class CategoriesDataSource (private val apiService: ApiService): IRemoteCategoriesDataSource {
 
 
     override suspend fun getCategories(): Response<categories> {

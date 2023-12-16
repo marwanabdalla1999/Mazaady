@@ -3,17 +3,19 @@ package com.example.data.dI
 import android.content.Context
 import com.example.data.apisEndPoints.ApiService
 import com.example.data.connections.NetworkListener
-import com.example.data.offlineData.cache.CacheAuthToken
-import com.example.data.offlineData.dataBase.OfflineDataBase
-import com.example.data.remoteData.pets.IRemotePetsDataSource
-import com.example.data.remoteData.pets.RemotePetsDataSource
-import com.example.data.remoteData.token.IRemoteAuthTokenDataSource
-import com.example.data.remoteData.token.RemoteAuthTokenDataSource
-import com.example.data.repositories.AuthTokenRepository
-import com.example.data.repositories.PetsRepository
+import com.example.data.remoteData.Categories.CategoriesDataSource
+import com.example.data.remoteData.Categories.IRemoteCategoriesDataSource
+import com.example.data.remoteData.Categories.IRemotePropertiesDataSource
+import com.example.data.remoteData.Categories.PropertiesDataSource
+import com.example.data.remoteData.options.IOptionDataSource
+import com.example.data.remoteData.options.OptionsDataSource
+import com.example.data.repositories.CategoriesRepository
+import com.example.data.repositories.OptionsRepository
+import com.example.data.repositories.PropertiesRepository
 import com.example.data.utils.Constants.BaseUrl.BASE_URL
-import com.example.domain.reposoitories.IAuthTokenRepository
-import com.example.domain.reposoitories.IPetsRepository
+import com.example.domain.reposoitories.ICategoriesRepository
+import com.example.domain.reposoitories.IOptionsRepository
+import com.example.domain.reposoitories.IPropertiesRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -30,33 +32,45 @@ import java.util.concurrent.TimeUnit
 object NetworkModule {
 
     @Provides
-    fun getPetRepo(networkListener: NetworkListener,remotePetsDataStore: IRemotePetsDataSource,offlineDataBase: OfflineDataBase): IPetsRepository {
+    fun getCategoryRepo(networkListener: NetworkListener, remotePetsDataStore: IRemoteCategoriesDataSource): ICategoriesRepository {
 
-        return PetsRepository(networkListener,remotePetsDataStore,offlineDataBase)
+        return CategoriesRepository(networkListener,remotePetsDataStore)
     }
+
 
     @Provides
-    fun getAuthRepo(networkListener: NetworkListener,tokenDataSource: IRemoteAuthTokenDataSource, cachedTokenDataSource: CacheAuthToken): IAuthTokenRepository {
+    fun getRemoteCategoryDataStore(apiService: ApiService): IRemoteCategoriesDataSource {
 
-        return AuthTokenRepository(networkListener,tokenDataSource,cachedTokenDataSource)
+        return CategoriesDataSource(apiService)
     }
-    @Provides
-    fun getRemotePetsDataStore(apiService: ApiService): IRemotePetsDataSource {
 
-        return RemotePetsDataSource(apiService)
-    }
 
     @Provides
-    fun getTokenDataSource(apiService: ApiService): IRemoteAuthTokenDataSource {
+    fun getPropertiesRepo(networkListener: NetworkListener, propertiesDataSource: IRemotePropertiesDataSource): IPropertiesRepository {
 
-        return RemoteAuthTokenDataSource(apiService)
+        return PropertiesRepository(networkListener,propertiesDataSource)
     }
+
+
     @Provides
-    fun getCachedTokenDataSource(@ApplicationContext context : Context): CacheAuthToken {
+    fun getPropertiesDataSource(apiService: ApiService): IRemotePropertiesDataSource {
 
-        return CacheAuthToken(context)
+        return PropertiesDataSource(apiService)
     }
 
+
+    @Provides
+    fun getOptionsRepo(networkListener: NetworkListener, optionsDataSource: IOptionDataSource): IOptionsRepository {
+
+        return OptionsRepository(networkListener,optionsDataSource)
+    }
+
+
+    @Provides
+    fun getOptionDataSource(apiService: ApiService): IOptionDataSource {
+
+        return OptionsDataSource(apiService)
+    }
 
     @Provides
     fun getApiService(): ApiService {

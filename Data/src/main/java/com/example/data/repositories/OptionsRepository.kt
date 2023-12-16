@@ -2,35 +2,39 @@ package com.example.data.repositories
 
 import com.example.data.connections.NetworkListener
 import com.example.data.remoteData.Categories.IRemotePropertiesDataSource
+import com.example.data.remoteData.options.IOptionDataSource
 import com.example.data.utils.Constants
 import com.example.domain.apiStates.CategoriesApiStates
+import com.example.domain.apiStates.OptionsApiStates
 import com.example.domain.apiStates.PropertiesApiStates
 import com.example.domain.reposoitories.ICategoriesRepository
+import com.example.domain.reposoitories.IOptionsRepository
 import com.example.domain.reposoitories.IPropertiesRepository
 
-class PropertiesRepository(
+class OptionsRepository(
     private val networkListener: NetworkListener,
-    private val remotePetsData: IRemotePropertiesDataSource,
-) : IPropertiesRepository {
+    private val remoteData: IOptionDataSource,
+) : IOptionsRepository {
 
 
-    override suspend fun getProperties(id : Int): PropertiesApiStates {
+    override suspend fun getOptions(id : Int): OptionsApiStates {
 
         return execute(id)
 
     }
 
-    private suspend fun execute(id : Int): PropertiesApiStates {
+    private suspend fun execute(id : Int): OptionsApiStates {
 
             if (networkListener.getConnectivity()) {
-                val response = remotePetsData.getProperties(id)
+                val response = remoteData.getOptions(id)
 
                 if (response.isSuccessful) {
-                    return PropertiesApiStates.Success(response.body())
+                    System.out.println("gdfgfdgdfgfdgdfgdfgfdg"+response.body())
+                    return OptionsApiStates.Success(response.body())
                 }
 
             }
-            return PropertiesApiStates.Failure(Throwable(Constants.Errors.UNKNOWN_ERROR))
+            return OptionsApiStates.Failure(Throwable(Constants.Errors.UNKNOWN_ERROR))
 
 
 

@@ -1,11 +1,9 @@
 package com.example.domain.useCases.properties
 
-import com.example.domain.apiStates.CategoriesApiStates
 import com.example.domain.apiStates.PropertiesApiStates
-import com.example.domain.reposoitories.ICategoriesRepository
 import com.example.domain.reposoitories.IPropertiesRepository
 
-class CategoriesUseCase(
+class PropertiesUseCase(
     private val properties: IPropertiesRepository
 ) : IPropertiesUseCase {
 

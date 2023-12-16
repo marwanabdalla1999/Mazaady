@@ -1,9 +1,10 @@
-package com.example.domain.useCases.Categories
+package com.example.domain.useCases.properties
 
 import com.example.domain.apiStates.CategoriesApiStates
+import com.example.domain.apiStates.PropertiesApiStates
 
-interface ICategoriesUseCase {
+interface IPropertiesUseCase {
 
 
-   suspend fun getCategories(): CategoriesApiStates
+   suspend fun getProperties(id : Int ): PropertiesApiStates
 }
