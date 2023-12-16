@@ -14,86 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27e0b3b7-74df-4d2f-8447-794c6c821497" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mazaadyTask/dI/NetworkModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mazaadyTask/dataPreviewScreen/adapter/DataAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mazaadyTask/dataPreviewScreen/fragments/DataPreviewScreen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mazaadyTask/mainScreen/adapters/options/OptionsAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mazaadyTask/mainScreen/adapters/properties/PropertiesAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mazaadyTask/mainScreen/fragments/MainScreen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baseline_search_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/divider.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/data_preview_fragment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/hash_map_table.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/main_screen_fragment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/example/mazaadyTask/utils/getOrAwaitValue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/example/mazaadyTask/viewModelTest/MainModelTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/src/main/java/com/example/data/utils/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/src/main/java/com/example/data/utils/Constants.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/proguard-rules.pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/androidTest/java/com/example/domain/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/androidTest/java/com/example/domain/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/apiStates/CategoriesApiStates.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/apiStates/CategoriesApiStates.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/apiStates/OptionsApiStates.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/apiStates/OptionsApiStates.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/apiStates/PropertiesApiStates.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/apiStates/PropertiesApiStates.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/categories/AdsBanner.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/categories/AdsBanner.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/categories/Category.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/categories/Category.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/categories/Children.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/categories/Children.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/categories/Data.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/categories/Data.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/categories/Statistics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/categories/Statistics.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/categories/categories.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/categories/categories.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/options/Data.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/options/Data.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/options/Option.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/options/Option.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/options/options.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/options/options.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/properties/Data.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/properties/Data.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/properties/Option.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/properties/Option.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/properties/properties.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/models/properties/properties.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/reposoitories/ICategoriesRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/reposoitories/ICategoriesRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/reposoitories/IOptionsRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/reposoitories/IOptionsRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/reposoitories/IPropertiesRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/reposoitories/IPropertiesRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/useCases/Categories/CategoriesUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/useCases/Categories/CategoriesUseCase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/useCases/Categories/ICategoriesUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/useCases/Categories/ICategoriesUseCase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/useCases/options/IOptionsUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/useCases/options/IOptionsUseCase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/useCases/options/OptionsUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/useCases/options/OptionsUseCase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/useCases/properties/IPropertiesUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/useCases/properties/IPropertiesUseCase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/useCases/properties/PropertiesUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/main/java/com/example/domain/useCases/properties/PropertiesUseCase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/test/java/com/example/domain/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/src/test/java/com/example/domain/ExampleUnitTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/softxpert/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/mazaadyTask/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/activities/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mazaadyTask/activities/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/application/Myapp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mazaadyTask/application/Myapp.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/bindingImages/bindImagesWithGlide.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/dI/NetworkModule.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/petDetailsScreen/fragments/PetDetails.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/petsHomeScreen/adapters/CategoriesAdapter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/petsHomeScreen/adapters/OnItemClickListener.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/petsHomeScreen/adapters/properties/OnPropertiesClickListener.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/petsHomeScreen/adapters/properties/PropertiesAdapter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/petsHomeScreen/adapters/properties/property/OnPropertyClickListener.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/petsHomeScreen/adapters/properties/property/PropertyAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mazaadyTask/mainScreen/adapters/subCategory/SubCategoriesAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/petsHomeScreen/adapters/subCategory/OnSubCatItemClickListener.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/petsHomeScreen/adapters/subCategory/SubCategoriesAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mazaadyTask/mainScreen/adapters/category/CategoriesAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/petsHomeScreen/fragments/MainScreen.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/petsHomeScreen/viewModels/MainViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mazaadyTask/mainScreen/viewModels/MainViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/softxpert/sharedViews/SnackBar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mazaadyTask/sharedViews/SnackBar.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/list_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/list_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/bottom_sheet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/bottom_sheet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pet_details.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_list.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/pets_home_screen_fragment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/properties_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/properties_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/softxpert/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/example/mazaadyTask/ExampleUnitTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +25,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[RZ8T20V2WZJ]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -126,15 +48,16 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="mazaadyTask.app.main" />
