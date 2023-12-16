@@ -215,6 +215,7 @@ class MainScreen : Fragment(), OnClickListener, SubCategoriesAdapter.OnSubCatIte
         binding.cat.text = categoriesAdapter?.data?.get(item)?.slug
         enteredData["Category"] = categoriesAdapter?.data?.get(item)?.slug.toString()
         binding.subCat.text=""
+        binding.properties.adapter=null
         subCategoriesAdapter =
             SubCategoriesAdapter(this@MainScreen, this.categoriesAdapter?.data?.get(item)?.children)
 
