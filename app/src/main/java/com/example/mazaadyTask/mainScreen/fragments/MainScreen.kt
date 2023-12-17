@@ -287,11 +287,14 @@ class MainScreen : Fragment(), OnClickListener, SubCategoriesAdapter.OnSubCatIte
         enteredData[clickedProperty.slug] = item.slug
         if (item.slug == "other") {
             propertyItemBinding.other.visibility = View.VISIBLE
+            propertyItemBinding.items.visibility=View.GONE
             propertyItemBinding.other.addTextChangedListener { s ->
                 enteredData[clickedProperty.slug] = s.toString()
             }
         } else {
             propertyItemBinding.other.visibility = View.GONE
+            propertyItemBinding.items.visibility=View.VISIBLE
+
             if (item.child) {
                 mainViewModel.getOptions(item.id)
             }
